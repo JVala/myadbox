@@ -8,7 +8,8 @@ module.exports = function(grunt) {
 			dev: {
         option: {
           paths: 'sass',
-          yuicompress: true
+          unixNewlines: true,
+          style: 'compressed'
         },
         files: {
           'style.css' : 'sass/main.sass'
