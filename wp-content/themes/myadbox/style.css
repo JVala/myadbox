@@ -11,4 +11,5 @@ ul li {
 
 a {
   color: #98b89d;
-  text-decoration: none; }
+  text-decoration: none;
+  line-height: 20px; }
